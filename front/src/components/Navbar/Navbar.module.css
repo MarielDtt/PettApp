@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    background-color:#FF6F61;
+    width: 90vw;
+    height: 6vw;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-top: 2vw;  
+    font-size: 1.5vw;
+
+}
+
+.container_navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 88vw;
+    list-style-type: none;
+    margin-right: 2vw;
+   
+}
+
+.container_items {
+    margin-left: 1em;    
+}
+
+.container_items a {
+    color: #FFFFFF; 
+    text-decoration: none; /* Elimina el subrayado en los enlaces */
+}
+
+.container_items:hover {
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+}
+
+a:hover {
+    color: #c70036;
+}
+
+.logo {
+    margin: 0.2em;
+    width: 6em;
+    height: 6em;
+}
+
+
+
+

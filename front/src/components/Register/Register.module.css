@@ -1,0 +1,84 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    margin: 2em auto;
+    background: radial-gradient(
+        circle, 
+        #f7e5d5 60%, 
+        #e0f2f1 100%
+    );
+    border-radius: 10px;
+}
+
+.h1 {
+
+    font-size: 1.5em;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.button {
+    margin-top: 0.5em;
+    width: 8em;
+    height: 3em;
+    border-radius: 5px;
+    background-color: #c70036;
+    color: white;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 0px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #94002e
+}
+
+
+.input {
+    border-radius: 5px;
+    width: 30vw;
+    height: 2.5Vw;
+    margin-right: 1em;
+    padding-left: 0.5em;
+}
+
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    white-space: nowrap; /*texto en una sola linea*/
+    margin-bottom: 1em;
+}
+
+.containerInput {
+    display: flex;
+    margin: auto;
+}
+
+.containerInputOnly {
+    width: 40%;
+
+    margin-left: 7em;
+}
+
+.registerStatusError {
+    color: red;
+    font-size: 0.8em;
+    white-space: nowrap; /*texto en una sola linea*/
+    margin-bottom: 0.5em;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+.registerStatusSuccess{
+    color: green;
+    font-size: 1em;
+    white-space: nowrap; /*texto en una sola linea*/
+    margin-bottom: 0.5em;
+    margin: auto;
+    margin-top: 0.5em;
+}

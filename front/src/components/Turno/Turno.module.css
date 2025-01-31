@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #f7e5d5;
+    border:4px solid #6c8878;
+    width: 80%;
+    height:6vw;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 1em;
+}
+
+.texto {
+    display: flex;
+    margin: 1em;
+    align-items: center;
+}
+
+.estado {
+    margin-left: 25em;
+    display: flex;
+    align-items: center;
+}
+
+
+.fyh {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 8em;
+    height: 2em;
+    border-radius: 8px;
+    background-color: #c70036;
+    color: white;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 0px;
+    margin-top: 1.2em;
+    margin-right: 0.8em;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #94002e
+}

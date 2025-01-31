@@ -1,0 +1,153 @@
+
+
+.containerFull { 
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30vw;
+    margin: 2em auto;
+    background: radial-gradient(
+        circle, 
+        #f7e5d5 60%, 
+        #e0f2f1 100%
+    );
+    border-radius: 10px;
+    
+}
+
+.containerHalfLeft{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 40vw;
+}
+
+.containerHalfRight {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+}
+
+.title {    
+    width: 40vw;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+}
+
+.title2 {
+    width: 40vw;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.input {
+   border-radius: 5px;
+   width: 30vw;
+   height: 2.5Vw;
+   margin-top: 0.5em;
+   margin-bottom: 1em;
+   padding-left: 0.5em;
+}
+
+.button {
+    margin-top: 1em;
+    width: 8em;
+    height: 3em;
+    border-radius: 5px;
+    background-color: #c70036;
+    color: white;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 0px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #94002e
+}
+
+.inputContainer {
+    margin-bottom: 1em;
+}
+
+.inputContainerError {
+    display: flex;
+    align-items: center;
+}
+
+.inputContainerError input {
+    margin-right: 0.5em;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    white-space: nowrap; /*texto en una sola linea*/
+}
+
+.lineaVertical {
+    height: 70%;
+    width: 5px;
+    background-color: #c70036;
+    align-self: center;
+    margin: 0 2em;
+}
+
+.lineaHorizontal {
+    height: 1px;
+    width: 90%;
+    background-color: #c70036;
+    margin: 0 auto
+   
+}
+
+.p {
+    margin-top: 1em;
+    text-align: center;
+    width: 40vw;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.p2 {
+    font-size: 0.8em;
+}
+
+.li {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.p3 {
+    font-size: 0.5em;
+}
+
+.loginStatusError {
+    color: red;
+    font-size: 0.8em;
+    white-space: nowrap; /*texto en una sola linea*/
+    margin-bottom: 0.5em;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+.loginStatusSuccess{
+    color: green;
+    font-size: 1em;
+    white-space: nowrap; /*texto en una sola linea*/
+    margin-bottom: 0.5em;
+    margin: auto;
+    margin-top: 0.5em;
+}

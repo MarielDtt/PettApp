@@ -1,0 +1,13 @@
+@import 'reset.css';
+
+
+
+:root {
+
+  background-color: #E0F2F1;
+  color: #213547;
+}
+
+body {
+  font-family: 'Itim', sans-serif;
+}
